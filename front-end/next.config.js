@@ -18,6 +18,10 @@ module.exports = {
     ignoreBuildErrors: true, // Set to true to disable type-checking during production build
   },
 
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
+
   images: {
     remotePatterns: [
       {
